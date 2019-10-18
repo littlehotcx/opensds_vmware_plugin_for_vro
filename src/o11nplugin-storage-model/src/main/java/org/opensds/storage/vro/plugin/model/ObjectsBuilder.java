@@ -73,7 +73,7 @@ public enum ObjectsBuilder {
             object = clazz.newInstance();
             String propName = clazz.getName();
             if(clazz.getName().contains(".")) {
-                String[] strings = clazz.getName().split("//.");
+                String[] strings = clazz.getName().split("\\.");
                 propName = strings[strings.length -1];
             }
             String clazzProp = prop.getProperty(propName);
