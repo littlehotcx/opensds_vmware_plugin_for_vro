@@ -45,7 +45,7 @@
 				<include name="*.jar" />
 			</fileset>
 		</copy>
-		<copy tofile="o11nplugin-storage/src/main/dar/resources/packages/org.opensds.storage.package" overwrite="true">
+		<copy todir="o11nplugin-storage/src/main/dar/resources/packages" overwrite="true">
 			<fileset dir="../release/">
 				<include name="org.OpenSDS.Storage.package" />
 			</fileset>
