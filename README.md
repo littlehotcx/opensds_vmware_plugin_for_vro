@@ -18,7 +18,7 @@ II. Description
 III. Supported Software Version
     
     
-    VMware vRealize Orchestrator：6.0.3\6.0.4\6.0.5
+    VMware vRealize Orchestrator：7.3~7.5
     VMware vSphere：6.0\6.5\6.7
 
     
